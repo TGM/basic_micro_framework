@@ -14,6 +14,6 @@ if(!defined("IN_ENGINE"))
 	exit();
 }
 
-include dirname(__FILE__)."/template/header.html";
+include dirname(__FILE__)."/templates/header.html";
 
 ?>

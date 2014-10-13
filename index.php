@@ -26,7 +26,7 @@ $route = $router->parse();
 $route[0] = $route[0] == '/index' ? $router->redirect('/') : $route[0];
 $route[0] = $route[0] == '/' ? $route[0] = 'index' : trim($route[0], '/');
 
-if (file_exists(dirname(__FILE__)."/template/".$route[0].".html") && $route[0] != 'header' && $route[0] != 'footer')
+if (file_exists(dirname(__FILE__)."/templates/".$route[0].".html") && $route[0] != 'header' && $route[0] != 'footer')
 {
 	// include header
 	require_once dirname(__FILE__)."/header.php";

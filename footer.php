@@ -14,6 +14,6 @@ if(!defined("IN_ENGINE"))
 	exit();
 }
 
-include dirname(__FILE__)."/template/footer.html";
+include dirname(__FILE__)."/templates/footer.html";
 
 ?>

@@ -14,6 +14,6 @@ if(!defined("IN_ENGINE"))
 	exit();
 }
 
-include dirname(__FILE__)."/template/".$route[0].".html";
+include dirname(__FILE__)."/templates/".$route[0].".html";
 
 ?>
